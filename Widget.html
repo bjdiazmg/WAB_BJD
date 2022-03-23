@@ -1,0 +1,31 @@
+<div>
+     <p>Provincia</p>
+    <select name="provincia" data-dojo-attach-event="onchange:cargaConcellos" 
+    data-dojo-attach-point="selectProvincia">
+      <option value="-1">Seleccione una provincia</option>
+      <option value="15">A Coruña</option>
+      <option value="27">Lugo</option>
+      <option value="32">Ourense</option>
+      <option value="36">Pontevedra</option>
+    </select>
+  
+    <br>
+  
+    <label>Concellos:</label>
+    <select name="concellos" data-dojo-attach-point="selectConcellos"
+    data-dojo-attach-event="onchange:cargaParroquias"></select>
+    <button data-dojo-attach-event="onclick:zoomConcello">
+    <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/search-20.png" alt="Lupa búsqueda"></button>
+ 
+    <br>
+
+    <label for="parroquias">Parroquias:</label>
+    <select name="parroquias" data-dojo-attach-point="selectParroquias"></select>
+    <button data-dojo-attach-event="onclick:zoomParroquia">
+        <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/search-20.png" alt="Lupa búsqueda">
+
+
+    </button>
+  
+    
+  </div>

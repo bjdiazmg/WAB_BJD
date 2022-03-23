@@ -1,0 +1,24 @@
+{
+  "name": "Buscador de Parroquias",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.23",
+  "wabVersion": "2.23",
+  "author": "Bruno Javier Díaz",
+  "description": "Widget que busca parroquias (asociaciones de pueblos) en Galicia, filtrando por provincias y consejo",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":false,
+		"hasSettingStyle":false,
+		"IsController":false
+  }
+}
